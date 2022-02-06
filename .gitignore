@@ -3,5 +3,6 @@ node_modules
 # ignore .git
 .git
 # ignore file compiled
-/dist/css/*
-/dist/js/*
+# uncomment if you want to ignore compiled files
+# /dist/css/*
+# /dist/js/*
