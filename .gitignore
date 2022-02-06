@@ -1,0 +1,7 @@
+# ignore node modules
+node_modules
+# ignore .git
+.git
+# ignore file compiled
+/dist/css/*
+/dist/js/*

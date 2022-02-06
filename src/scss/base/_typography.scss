@@ -1,0 +1,28 @@
+h1,
+.h1 {
+  @include heading-1;
+}
+h2,
+.h2 {
+  @include heading-2;
+}
+h3,
+.h3 {
+  @include heading-3;
+}
+h4,
+.h4 {
+  @include heading-4;
+}
+p,
+.p {
+  @include body-2;
+}
+.p1 {
+  @include body-1;
+}
+
+small,
+.small {
+  @include small-text;
+}

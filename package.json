@@ -1,0 +1,41 @@
+{
+  "name": "ky",
+  "version": "1.0.0",
+  "description": "=== Ky=== Contributors: wordpressdotorg Requires at least: 5.3 Tested up to: 5.9 Requires PHP: 5.6 Stable tag: 1.4 License: GPLv2 or later License URI: http://www.gnu.org/licenses/gpl-2.0.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp watch",
+    "build": "gulp"
+  },
+  "author": "dicky saputra",
+  "license": "ISC",
+  "main": "index.php",
+  "dependencies": {
+    "gulp-postcss": "^9.0.1",
+    "node-sass": "^7.0.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "@babel/register": "^7.16.5",
+    "autoprefixer": "^10.4.2",
+    "babelify": "^10.0.0",
+    "browser-sync": "^2.27.7",
+    "browserify": "^17.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-include": "^2.4.1",
+    "gulp-notify": "^4.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-uglify": "^3.0.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.18",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
