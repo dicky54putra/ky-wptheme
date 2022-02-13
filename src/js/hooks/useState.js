@@ -25,5 +25,4 @@ const useState = (initialState) => {
     },
   };
 };
-
 export default useState;
