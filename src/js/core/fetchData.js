@@ -1,3 +1,20 @@
+/* 
+How to use:
+====================================
+  let data = {
+    action: themeObj.test.action,
+    nonce: themeObj.nonceFE,
+    user_id: 1,
+  };
+
+  fetchData(theUrl, "POST", data)
+    .then((res) => {
+      your response
+    })
+    .catch((err) => console.log(err));
+====================================
+
+*/
 const fetchData = (url, method = "GET", data) =>
   new Promise((res, rej) => {
     fetch(url, {
